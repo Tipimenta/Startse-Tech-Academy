@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Minha página</title>
+</head>
+
+<body>
+    <nav>
+        <header>Tiago Pimenta</header>
+        <section class="nav-items">
+            <a href=home#>Home</a> <a href=#sobre>Sobre</a> <a href=#form>Formulário</a>
+        </section>
+    </nav>
+    <section id="home">
+        <div class="container">
+            <div class="column-left">
+                <h1>Portfólio</h1>
+                <p>
+                    Entre em contato pelo formulário para saber mais sobre aplicações de excelência.
+                </p>
+                <a id="CTA-button" href=#form>Comece agora!</a>
+                <p>
+                    Quer saber mais sobre mim?                    
+                </p>
+                <a id="CTA-button" href=#sobre>Quero!</a>
+            </div>
+            <div class="column-right">
+                <img  src="\startse - projeto 22-10-22\full-stack-development.gif" width="100px" alt="Full-stack" id="home-image" />
+            </div>
+        </div>
+    </section>
+    <section id="sobre">
+        <div class="container">
+            <div class="sobre-right">
+                <img class="perfil" src="\startse - projeto 22-10-22\Profile.jpeg" width="100px" alt="Profile" id="sobre-image" />
+            </div>
+            <div class="sobre-left">
+                <h1>Sobre</h1>
+                    <p>Lorem ipsum dolor sit amet. Aut laborum nihil At obcaecati galisum quo cumque pariatur qui iste totam est alias perferendis. Rem veritatis saepe ut voluptatum nisi et dolorem quas est sequi assumenda eos tempora dolorem non sapiente galisum. Et consequatur doloremque et voluptas ullam sit molestiae nihil qui provident provident.</p>
+                    <a id="CTA-button" href=#form>Comece agora!</a>
+                    <p>
+                        Entre em contato.              
+                    </p>
+            </div>
+        </div>
+    </section>
+
+    <form id="form" action="http://google.com">
+        <section>
+            <h2>Contato</h2>
+            <p>Digite seu nome:
+                <input type="text" name="userName" size=40 maxlength=40 placeholder="Digite seu nome completo">
+            </p>
+            <p>Número para contato:
+                <input type="text" name="contact" size=40 maxlength=40 placeholder="(xx) xxxxx-xxxx)">
+            <p>Qual o motivo do contato:
+                <input type="text" name="contact" size=40 maxlength=40 placeholder="Qual o motivo do contato">
+            </p>
+            <p>Descreva por favor:
+                <textarea name="userComment" cols="30" rows="4"></textarea>
+            </p>
+            <input id="form-button" type=submit value="ENVIAR">
+        </section>
+    </form>
+</body>
+
+</html>
